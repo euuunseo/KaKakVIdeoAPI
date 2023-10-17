@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5926CB2C2AFA315F0034D226 /* KakaoVideoData(Quicktype).swift in Sources */ = {isa = PBXBuildFile; fileRef = 5926CB2B2AFA315F0034D226 /* KakaoVideoData(Quicktype).swift */; };
+		593871232AEEBC4300F8D5E2 /* TranslateAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593871222AEEBC4300F8D5E2 /* TranslateAPIManager.swift */; };
+		593871252AEEC04000F8D5E2 /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593871242AEEC04000F8D5E2 /* AsyncViewController.swift */; };
+		598B41EF2AF4C92C0059D572 /* BoxOfficeData(Quicktype).swift in Sources */ = {isa = PBXBuildFile; fileRef = 598B41EE2AF4C92C0059D572 /* BoxOfficeData(Quicktype).swift */; };
+		59E7548C2AEB768C00FF3162 /* ReuseableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7548B2AEB768C00FF3162 /* ReuseableViewProtocol.swift */; };
+		59E7548E2AEB799500FF3162 /* UserdefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7548D2AEB799500FF3162 /* UserdefaultHelper.swift */; };
+		59E754902AEB832E00FF3162 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7548F2AEB832E00FF3162 /* Endpoint.swift */; };
+		59E754922AEB83C300FF3162 /* URL + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E754912AEB83C300FF3162 /* URL + Extension.swift */; };
+		59E754942AEB856200FF3162 /* KakaoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E754932AEB856200FF3162 /* KakaoAPIManager.swift */; };
 		59E9BF542ADEE4CB000E9D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF532ADEE4CB000E9D52 /* AppDelegate.swift */; };
 		59E9BF562ADEE4CB000E9D52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF552ADEE4CB000E9D52 /* SceneDelegate.swift */; };
 		59E9BF582ADEE4CB000E9D52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF572ADEE4CB000E9D52 /* ViewController.swift */; };
 		59E9BF5B2ADEE4CB000E9D52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E9BF592ADEE4CB000E9D52 /* Main.storyboard */; };
 		59E9BF5D2ADEE4CB000E9D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E9BF5C2ADEE4CB000E9D52 /* Assets.xcassets */; };
 		59E9BF602ADEE4CB000E9D52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E9BF5E2ADEE4CB000E9D52 /* LaunchScreen.storyboard */; };
+		59E9BF692ADEE6D8000E9D52 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 59E9BF682ADEE6D8000E9D52 /* Alamofire */; };
+		59E9BF6C2ADEE6E7000E9D52 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 59E9BF6B2ADEE6E7000E9D52 /* SwiftyJSON */; };
+		59E9BF6F2ADEE6F1000E9D52 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 59E9BF6E2ADEE6F1000E9D52 /* Kingfisher */; };
+		59E9BF712ADEEBDF000E9D52 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 59E9BF702ADEEBDF000E9D52 /* .gitignore */; };
+		59E9BF732ADEECF3000E9D52 /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF722ADEECF3000E9D52 /* TranslationViewController.swift */; };
+		59E9BF752ADEED1C000E9D52 /* APIkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF742ADEED1C000E9D52 /* APIkey.swift */; };
+		59E9BF772ADFA960000E9D52 /* BeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF762ADFA960000E9D52 /* BeerViewController.swift */; };
+		59E9BF792ADFB63D000E9D52 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF782ADFB63D000E9D52 /* WeatherViewController.swift */; };
+		59E9BF7B2AE0258C000E9D52 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF7A2AE0258C000E9D52 /* VideoViewController.swift */; };
+		59E9BF7D2AE0F133000E9D52 /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF7C2AE0F133000E9D52 /* BeerListViewController.swift */; };
+		59E9BF802AE0F61F000E9D52 /* BeerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E9BF7E2AE0F61F000E9D52 /* BeerListTableViewCell.swift */; };
+		59E9BF812AE0F61F000E9D52 /* BeerListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59E9BF7F2AE0F61F000E9D52 /* BeerListTableViewCell.xib */; };
+		59F032D52AE5064400B1CD9D /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F032D42AE5064400B1CD9D /* VideoTableViewCell.swift */; };
+		59F032D72AE8030100B1CD9D /* BookwormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F032D62AE8030100B1CD9D /* BookwormViewController.swift */; };
+		59F032D92AE8031700B1CD9D /* BookwormCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F032D82AE8031700B1CD9D /* BookwormCollectionViewCell.swift */; };
+		59F032DB2AE8EC8000B1CD9D /* PapagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F032DA2AE8EC8000B1CD9D /* PapagoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5926CB2B2AFA315F0034D226 /* KakaoVideoData(Quicktype).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakaoVideoData(Quicktype).swift"; sourceTree = "<group>"; };
+		593871222AEEBC4300F8D5E2 /* TranslateAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateAPIManager.swift; sourceTree = "<group>"; };
+		593871242AEEC04000F8D5E2 /* AsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewController.swift; sourceTree = "<group>"; };
+		598B41EE2AF4C92C0059D572 /* BoxOfficeData(Quicktype).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoxOfficeData(Quicktype).swift"; sourceTree = "<group>"; };
+		59E7548B2AEB768C00FF3162 /* ReuseableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseableViewProtocol.swift; sourceTree = "<group>"; };
+		59E7548D2AEB799500FF3162 /* UserdefaultHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserdefaultHelper.swift; sourceTree = "<group>"; };
+		59E7548F2AEB832E00FF3162 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		59E754912AEB83C300FF3162 /* URL + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL + Extension.swift"; sourceTree = "<group>"; };
+		59E754932AEB856200FF3162 /* KakaoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAPIManager.swift; sourceTree = "<group>"; };
 		59E9BF502ADEE4CB000E9D52 /* SeSACWeek4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E9BF532ADEE4CB000E9D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59E9BF552ADEE4CB000E9D52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +58,19 @@
 		59E9BF5C2ADEE4CB000E9D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59E9BF5F2ADEE4CB000E9D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59E9BF612ADEE4CB000E9D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E9BF702ADEEBDF000E9D52 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		59E9BF722ADEECF3000E9D52 /* TranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		59E9BF742ADEED1C000E9D52 /* APIkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkey.swift; sourceTree = "<group>"; };
+		59E9BF762ADFA960000E9D52 /* BeerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerViewController.swift; sourceTree = "<group>"; };
+		59E9BF782ADFB63D000E9D52 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		59E9BF7A2AE0258C000E9D52 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		59E9BF7C2AE0F133000E9D52 /* BeerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
+		59E9BF7E2AE0F61F000E9D52 /* BeerListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListTableViewCell.swift; sourceTree = "<group>"; };
+		59E9BF7F2AE0F61F000E9D52 /* BeerListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerListTableViewCell.xib; sourceTree = "<group>"; };
+		59F032D42AE5064400B1CD9D /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		59F032D62AE8030100B1CD9D /* BookwormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormViewController.swift; sourceTree = "<group>"; };
+		59F032D82AE8031700B1CD9D /* BookwormCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormCollectionViewCell.swift; sourceTree = "<group>"; };
+		59F032DA2AE8EC8000B1CD9D /* PapagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E9BF6F2ADEE6F1000E9D52 /* Kingfisher in Frameworks */,
+				59E9BF6C2ADEE6E7000E9D52 /* SwiftyJSON in Frameworks */,
+				59E9BF692ADEE6D8000E9D52 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +90,7 @@
 		59E9BF472ADEE4CB000E9D52 = {
 			isa = PBXGroup;
 			children = (
+				59EEAF672B020A12005BD52D /* kakaoVideoAPI */,
 				59E9BF522ADEE4CB000E9D52 /* SeSACWeek4 */,
 				59E9BF512ADEE4CB000E9D52 /* Products */,
 			);
@@ -58,13 +109,42 @@
 			children = (
 				59E9BF532ADEE4CB000E9D52 /* AppDelegate.swift */,
 				59E9BF552ADEE4CB000E9D52 /* SceneDelegate.swift */,
+				598B41EE2AF4C92C0059D572 /* BoxOfficeData(Quicktype).swift */,
 				59E9BF572ADEE4CB000E9D52 /* ViewController.swift */,
 				59E9BF592ADEE4CB000E9D52 /* Main.storyboard */,
+				59F032D82AE8031700B1CD9D /* BookwormCollectionViewCell.swift */,
+				59F032D62AE8030100B1CD9D /* BookwormViewController.swift */,
+				59E9BF7C2AE0F133000E9D52 /* BeerListViewController.swift */,
+				59E9BF7E2AE0F61F000E9D52 /* BeerListTableViewCell.swift */,
+				59E9BF7F2AE0F61F000E9D52 /* BeerListTableViewCell.xib */,
+				59E9BF782ADFB63D000E9D52 /* WeatherViewController.swift */,
+				59E9BF762ADFA960000E9D52 /* BeerViewController.swift */,
 				59E9BF5C2ADEE4CB000E9D52 /* Assets.xcassets */,
 				59E9BF5E2ADEE4CB000E9D52 /* LaunchScreen.storyboard */,
 				59E9BF612ADEE4CB000E9D52 /* Info.plist */,
+				59E9BF702ADEEBDF000E9D52 /* .gitignore */,
+				59E9BF722ADEECF3000E9D52 /* TranslationViewController.swift */,
+				59F032DA2AE8EC8000B1CD9D /* PapagoViewController.swift */,
+				593871222AEEBC4300F8D5E2 /* TranslateAPIManager.swift */,
+				59E9BF742ADEED1C000E9D52 /* APIkey.swift */,
+				59E7548D2AEB799500FF3162 /* UserdefaultHelper.swift */,
+				59E754912AEB83C300FF3162 /* URL + Extension.swift */,
+				59E7548F2AEB832E00FF3162 /* Endpoint.swift */,
+				59E7548B2AEB768C00FF3162 /* ReuseableViewProtocol.swift */,
+				593871242AEEC04000F8D5E2 /* AsyncViewController.swift */,
 			);
 			path = SeSACWeek4;
+			sourceTree = "<group>";
+		};
+		59EEAF672B020A12005BD52D /* kakaoVideoAPI */ = {
+			isa = PBXGroup;
+			children = (
+				59E9BF7A2AE0258C000E9D52 /* VideoViewController.swift */,
+				59F032D42AE5064400B1CD9D /* VideoTableViewCell.swift */,
+				5926CB2B2AFA315F0034D226 /* KakaoVideoData(Quicktype).swift */,
+				59E754932AEB856200FF3162 /* KakaoAPIManager.swift */,
+			);
+			path = kakaoVideoAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +163,11 @@
 			dependencies = (
 			);
 			name = SeSACWeek4;
+			packageProductDependencies = (
+				59E9BF682ADEE6D8000E9D52 /* Alamofire */,
+				59E9BF6B2ADEE6E7000E9D52 /* SwiftyJSON */,
+				59E9BF6E2ADEE6F1000E9D52 /* Kingfisher */,
+			);
 			productName = SeSACWeek4;
 			productReference = 59E9BF502ADEE4CB000E9D52 /* SeSACWeek4.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,11 @@
 				Base,
 			);
 			mainGroup = 59E9BF472ADEE4CB000E9D52;
+			packageReferences = (
+				59E9BF672ADEE6D8000E9D52 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				59E9BF6A2ADEE6E7000E9D52 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				59E9BF6D2ADEE6F1000E9D52 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 59E9BF512ADEE4CB000E9D52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E9BF712ADEEBDF000E9D52 /* .gitignore in Resources */,
 				59E9BF602ADEE4CB000E9D52 /* LaunchScreen.storyboard in Resources */,
+				59E9BF812AE0F61F000E9D52 /* BeerListTableViewCell.xib in Resources */,
 				59E9BF5D2ADEE4CB000E9D52 /* Assets.xcassets in Resources */,
 				59E9BF5B2ADEE4CB000E9D52 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +230,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5926CB2C2AFA315F0034D226 /* KakaoVideoData(Quicktype).swift in Sources */,
+				59E7548C2AEB768C00FF3162 /* ReuseableViewProtocol.swift in Sources */,
+				59E9BF732ADEECF3000E9D52 /* TranslationViewController.swift in Sources */,
+				59F032D52AE5064400B1CD9D /* VideoTableViewCell.swift in Sources */,
+				593871252AEEC04000F8D5E2 /* AsyncViewController.swift in Sources */,
+				59E9BF802AE0F61F000E9D52 /* BeerListTableViewCell.swift in Sources */,
+				59E9BF752ADEED1C000E9D52 /* APIkey.swift in Sources */,
+				59E754942AEB856200FF3162 /* KakaoAPIManager.swift in Sources */,
+				59E754902AEB832E00FF3162 /* Endpoint.swift in Sources */,
+				598B41EF2AF4C92C0059D572 /* BoxOfficeData(Quicktype).swift in Sources */,
+				593871232AEEBC4300F8D5E2 /* TranslateAPIManager.swift in Sources */,
+				59E9BF7B2AE0258C000E9D52 /* VideoViewController.swift in Sources */,
+				59E7548E2AEB799500FF3162 /* UserdefaultHelper.swift in Sources */,
+				59E9BF7D2AE0F133000E9D52 /* BeerListViewController.swift in Sources */,
+				59F032D72AE8030100B1CD9D /* BookwormViewController.swift in Sources */,
+				59F032D92AE8031700B1CD9D /* BookwormCollectionViewCell.swift in Sources */,
+				59E754922AEB83C300FF3162 /* URL + Extension.swift in Sources */,
+				59F032DB2AE8EC8000B1CD9D /* PapagoViewController.swift in Sources */,
+				59E9BF772ADFA960000E9D52 /* BeerViewController.swift in Sources */,
 				59E9BF582ADEE4CB000E9D52 /* ViewController.swift in Sources */,
+				59E9BF792ADFB63D000E9D52 /* WeatherViewController.swift in Sources */,
 				59E9BF542ADEE4CB000E9D52 /* AppDelegate.swift in Sources */,
 				59E9BF562ADEE4CB000E9D52 /* SceneDelegate.swift in Sources */,
 			);
@@ -358,6 +470,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		59E9BF672ADEE6D8000E9D52 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		59E9BF6A2ADEE6E7000E9D52 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		59E9BF6D2ADEE6F1000E9D52 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59E9BF682ADEE6D8000E9D52 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59E9BF672ADEE6D8000E9D52 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		59E9BF6B2ADEE6E7000E9D52 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59E9BF6A2ADEE6E7000E9D52 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		59E9BF6E2ADEE6F1000E9D52 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59E9BF6D2ADEE6F1000E9D52 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 59E9BF482ADEE4CB000E9D52 /* Project object */;
 }
